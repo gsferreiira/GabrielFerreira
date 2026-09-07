@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ThemeToggle from '../components/ThemeToggle.jsx'
 import fotoGabriel from '../assets/ferreira.jpg'
 import '../App.css'
 
@@ -62,6 +63,7 @@ function Home() {
           <a href="#projetos">Projetos</a>
           <a href="#skills">Skills</a>
           <a href="#contato">Contato</a>
+          <ThemeToggle />
         </nav>
       </header>
 

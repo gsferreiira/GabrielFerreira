@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import Figure from '../components/Figure.jsx'
+import ThemeToggle from '../components/ThemeToggle.jsx'
+import '../App.css'
 import './CaseStudy.css'
 
 import landingHero from '../assets/case-agenvix/landing-hero.png'
@@ -20,6 +22,7 @@ function AgenvixCaseStudy() {
         <nav className="nav__links">
           <Link to="/">Início</Link>
           <a href="https://www.agenvix.com.br" target="_blank" rel="noreferrer">Site ao vivo</a>
+          <ThemeToggle />
         </nav>
       </header>
 

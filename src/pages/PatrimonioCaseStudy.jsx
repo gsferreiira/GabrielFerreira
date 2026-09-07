@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import Figure from '../components/Figure.jsx'
+import ThemeToggle from '../components/ThemeToggle.jsx'
+import '../App.css'
 import './CaseStudy.css'
 
 import login from '../assets/case-patrimonio/login.png'
@@ -19,6 +21,7 @@ function PatrimonioCaseStudy() {
         <Link to="/" className="nav__brand">Gabriel Ferreira</Link>
         <nav className="nav__links">
           <Link to="/">Início</Link>
+          <ThemeToggle />
         </nav>
       </header>
 

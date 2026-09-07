@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import Carousel from '../components/Carousel.jsx'
+import ThemeToggle from '../components/ThemeToggle.jsx'
+import '../App.css'
 import './CaseStudy.css'
 
 import prontoo from '../assets/case-ponte/prontoo.jpg'
@@ -39,6 +41,7 @@ function PonteCaseStudy() {
           <Link to="/">Início</Link>
           <a href="https://blog-facul.vercel.app" target="_blank" rel="noreferrer">Site do projeto</a>
           <a href="https://github.com/gsferreiira/blog_facul" target="_blank" rel="noreferrer">GitHub</a>
+          <ThemeToggle />
         </nav>
       </header>
 

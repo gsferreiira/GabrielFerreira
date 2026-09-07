@@ -7,9 +7,25 @@
   --text-muted: #a3a9b8;
   --accent: #5b8cff;
   --accent-soft: rgba(91, 140, 255, 0.12);
+  --on-accent: #0b0d12;
+  --nav-bg: rgba(15, 17, 21, 0.85);
   --radius: 14px;
   --max-width: 1040px;
   color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f8fa;
+  --bg-soft: #eef0f3;
+  --card: #ffffff;
+  --border: #dde1e7;
+  --text: #14171c;
+  --text-muted: #5b6270;
+  --accent: #2f5fd6;
+  --accent-soft: rgba(47, 95, 214, 0.1);
+  --on-accent: #ffffff;
+  --nav-bg: rgba(247, 248, 250, 0.85);
+  color-scheme: light;
 }
 
 * {

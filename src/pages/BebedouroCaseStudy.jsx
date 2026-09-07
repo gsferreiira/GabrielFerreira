@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import Carousel from '../components/Carousel.jsx'
 import Figure from '../components/Figure.jsx'
+import ThemeToggle from '../components/ThemeToggle.jsx'
+import '../App.css'
 import './CaseStudy.css'
 
 import estruturaFrontal from '../assets/case-bebedouro/estrutura-frontal.jpg'
@@ -56,6 +58,7 @@ function BebedouroCaseStudy() {
           <Link to="/">Início</Link>
           <a href="https://bebedouro-inteligente.vercel.app" target="_blank" rel="noreferrer">Site do projeto</a>
           <a href="https://github.com/gsferreiira/bebedouro-inteligente" target="_blank" rel="noreferrer">GitHub</a>
+          <ThemeToggle />
         </nav>
       </header>
 
