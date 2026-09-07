@@ -57,7 +57,7 @@ function PonteCaseStudy() {
             <span className="tag">Eletromagnetismo</span>
           </div>
           <p className="cs-hero__note">
-            Projeto acadêmico solo, desenvolvido nas disciplinas de Modelagem e Simulação de
+            Projeto acadêmico em grupo, desenvolvido nas disciplinas de Modelagem e Simulação de
             Sistemas Elétricos e Magnéticos e de Fenômenos Elétricos, Magnéticos e Oscilatórios
             (Engenharia de Software, UNICURITIBA).
           </p>

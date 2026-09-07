@@ -62,7 +62,7 @@ function PatrimonioCaseStudy() {
             A movimentação de equipamentos entre setores era controlada por planilha do Excel:
             processo manual, sem histórico confiável e sem visibilidade de onde cada item estava de
             fato. Comecei atuando como suporte técnico completo (equipamentos, redes, cabeamento) e,
-            a partir da dor real de localizar patrimônio, propus um cadastro simples que foi crescendo
+            a partir da dor real de localizar patrimônio, propus um sistema de cadastro simples que foi crescendo
             até virar um sistema completo, do qual sou hoje o único desenvolvedor.
           </p>
         </section>
@@ -129,7 +129,7 @@ function PatrimonioCaseStudy() {
           <h2>O diferencial: scanner de patrimônio</h2>
           <p>
             A parte do sistema que mais economiza trabalho no dia a dia é o scanner: aponta a câmera
-            do celular pro código do patrimônio e o sistema já localiza o equipamento (em qual sala
+            do celular pro código de barras presente na etiqueta de patrimônio e o sistema já localiza o equipamento (em qual sala
             está, com quem) ou, no modo lote, acumula vários itens escaneados em sequência pra
             movimentar todos de uma vez, num único envio.
           </p>
@@ -159,7 +159,7 @@ function PatrimonioCaseStudy() {
             patrimônio existe e está registrado, recusa item sem localização atual ou já no destino,
             aplica regra de domínio (equipamento de TI só pode ser movido por quem tem acesso ao
             setor de TI) e só então grava todas as movimentações e atualiza a localização de cada
-            item. Se algo falhar no meio, nada é salvo, evitando lote pela metade.
+            item.
           </p>
         </section>
 

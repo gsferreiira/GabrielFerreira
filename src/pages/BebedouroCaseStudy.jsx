@@ -84,7 +84,7 @@ function BebedouroCaseStudy() {
         <section className="cs-section">
           <h2>O problema</h2>
           <p>
-            Bebedouros convencionais liberam água por um tempo fixo, o mesmo intervalo para um copo
+            Bebedouros convencionais liberam água por um tempo fixo ou até serem interrompidos, o mesmo intervalo para um copo
             pequeno ou uma garrafa grande, o que gera desperdício ou transbordamento. Este projeto
             propõe o oposto: um sistema que identifica o recipiente, faz a tara automática do peso
             inicial e libera a água até atingir exatamente a quantidade-alvo, cortando a bomba pelo
@@ -153,7 +153,6 @@ function BebedouroCaseStudy() {
           <ul className="cs-list">
             <li>Alvo de garrafa reduzido de 50g para 45g após observarmos transbordamento nos primeiros testes.</li>
             <li>Reset do contador de estado não pode viver dentro do laço do estado Aguardando: isso impedia a detecção de recipientes.</li>
-            <li>A ordem importa: ler a HX711 antes do gate de throttle (e não depois) evitou atrasos perceptíveis no corte da bomba.</li>
             <li>Botão com dois comportamentos: clique curto pausa/retoma o ciclo; segurar por 3 segundos força um reset completo do sistema.</li>
           </ul>
         </section>

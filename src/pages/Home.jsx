@@ -27,7 +27,7 @@ const projetos = [
 const projetosExtra = [
   {
     nome: 'Bebedouro Inteligente',
-    descricao: 'Projeto acadêmico de dispensação de água por peso, com ESP32, sensor ultrassônico e célula de carga.',
+    descricao: 'Projeto acadêmico de dispensação de água por peso e aproximação, com ESP32, sensor ultrassônico, um display oled e célula de carga.',
     tags: ['ESP32', 'C++', 'React'],
     link: 'https://bebedouro-inteligente.vercel.app',
     linkLabel: 'Ver site ↗',

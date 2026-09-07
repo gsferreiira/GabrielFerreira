@@ -37,7 +37,6 @@ function AgenvixCaseStudy() {
             <span className="tag">JWT</span>
             <span className="tag">React</span>
             <span className="tag">Docker</span>
-            <span className="tag">GitHub Actions</span>
           </div>
           <div className="cs-hero__stats">
             <div className="cs-stat">
@@ -166,10 +165,6 @@ function AgenvixCaseStudy() {
             <li>
               <strong>Rate limiting e cache próprios</strong>, sem depender de infraestrutura externa
               (Redis, etc.), implementados em arquivo, suficiente pra escala atual do projeto.
-            </li>
-            <li>
-              <strong>CI/CD com GitHub Actions</strong> rodando testes automatizados (PHPUnit) a cada
-              push, e ambiente de desenvolvimento local com Docker Compose pra reproduzir produção.
             </li>
           </ul>
         </section>
