@@ -18,8 +18,8 @@ function AgenvixCaseStudy() {
       <header className="nav">
         <Link to="/" className="nav__brand">Gabriel Ferreira</Link>
         <nav className="nav__links">
-          <Link to="/">← Início</Link>
-          <a href="https://www.agenvix.com.br" target="_blank" rel="noreferrer">Site ao vivo ↗</a>
+          <Link to="/">Início</Link>
+          <a href="https://www.agenvix.com.br" target="_blank" rel="noreferrer">Site ao vivo</a>
         </nav>
       </header>
 
@@ -49,7 +49,7 @@ function AgenvixCaseStudy() {
             </div>
           </div>
           <a className="btn btn--primary" href="https://www.agenvix.com.br" target="_blank" rel="noreferrer">
-            Ver site ao vivo ↗
+            Ver site ao vivo
           </a>
         </section>
 
@@ -184,9 +184,9 @@ function AgenvixCaseStudy() {
         </section>
 
         <section className="cs-section cs-section--end">
-          <Link to="/" className="btn btn--ghost">← Voltar pro início</Link>
+          <Link to="/" className="btn btn--ghost">Voltar pro início</Link>
           <a className="btn btn--primary" href="https://www.agenvix.com.br" target="_blank" rel="noreferrer">
-            Ver site ao vivo ↗
+            Ver site ao vivo
           </a>
         </section>
       </main>

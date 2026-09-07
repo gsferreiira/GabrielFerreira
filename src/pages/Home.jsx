@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import fotoGabriel from '../assets/ferreira.jpg'
 import '../App.css'
 
 const projetos = [
@@ -9,7 +10,7 @@ const projetos = [
       'SaaS multi-tenant de agendamentos para barbearias, salões e clínicas, idealizado, desenvolvido e mantido sozinho. Em produção, com pagamentos via webhook (com tratamento de idempotência), autenticação JWT, isolamento de dados por tenant, testes automatizados e CI/CD.',
     tags: ['PHP', 'MySQL', 'JWT', 'React', 'Docker'],
     link: 'https://www.agenvix.com.br',
-    linkLabel: 'Ver site ↗',
+    linkLabel: 'Ver site',
     caseStudy: '/projetos/agenvix',
   },
   {
@@ -30,7 +31,7 @@ const projetosExtra = [
     descricao: 'Projeto acadêmico de dispensação de água por peso e aproximação, com ESP32, sensor ultrassônico, um display oled e célula de carga.',
     tags: ['ESP32', 'C++', 'React'],
     link: 'https://bebedouro-inteligente.vercel.app',
-    linkLabel: 'Ver site ↗',
+    linkLabel: 'Ver site',
     caseStudy: '/projetos/bebedouro',
   },
   {
@@ -38,7 +39,7 @@ const projetosExtra = [
     descricao: 'Projeto acadêmico de automação com 4 motores de passo sincronizados, controlados por Arduino.',
     tags: ['Arduino', 'C++', 'Eletromagnetismo'],
     link: 'https://blog-facul.vercel.app',
-    linkLabel: 'Ver site ↗',
+    linkLabel: 'Ver site',
     caseStudy: '/projetos/ponte',
   },
 ]
@@ -66,8 +67,7 @@ function Home() {
 
       <main>
         <section className="hero">
-          {/* Troque o div abaixo por <img src="/foto.jpg" alt="Gabriel Ferreira" className="hero__avatar" /> quando tiver a foto */}
-          <div className="hero__avatar hero__avatar--placeholder" aria-hidden="true">GF</div>
+          <img src={fotoGabriel} alt="Gabriel Ferreira" className="hero__avatar" />
           <h1>Gabriel Ferreira dos Santos</h1>
           <p className="hero__tagline">Desenvolvedor Backend</p>
           <p className="hero__pitch">
@@ -105,7 +105,7 @@ function Home() {
                 </div>
                 <div className="card__links">
                   {p.caseStudy && (
-                    <Link className="card__link" to={p.caseStudy}>Ver case study →</Link>
+                    <Link className="card__link" to={p.caseStudy}>Ver detalhes</Link>
                   )}
                   {p.link ? (
                     <a className="card__link" href={p.link} target="_blank" rel="noreferrer">
@@ -132,7 +132,7 @@ function Home() {
                 </div>
                 <div className="card__links">
                   {p.caseStudy && (
-                    <Link className="card__link" to={p.caseStudy}>Ver case study →</Link>
+                    <Link className="card__link" to={p.caseStudy}>Ver detalhes</Link>
                   )}
                   <a className="card__link" href={p.link} target="_blank" rel="noreferrer">
                     {p.linkLabel}

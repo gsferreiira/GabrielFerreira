@@ -18,7 +18,7 @@ function PatrimonioCaseStudy() {
       <header className="nav">
         <Link to="/" className="nav__brand">Gabriel Ferreira</Link>
         <nav className="nav__links">
-          <Link to="/">← Início</Link>
+          <Link to="/">Início</Link>
         </nav>
       </header>
 
@@ -209,7 +209,7 @@ function PatrimonioCaseStudy() {
         </section>
 
         <section className="cs-section cs-section--end">
-          <Link to="/" className="btn btn--ghost">← Voltar pro início</Link>
+          <Link to="/" className="btn btn--ghost">Voltar pro início</Link>
         </section>
       </main>
     </>

@@ -53,9 +53,9 @@ function BebedouroCaseStudy() {
       <header className="nav">
         <Link to="/" className="nav__brand">Gabriel Ferreira</Link>
         <nav className="nav__links">
-          <Link to="/">← Início</Link>
-          <a href="https://bebedouro-inteligente.vercel.app" target="_blank" rel="noreferrer">Site do projeto ↗</a>
-          <a href="https://github.com/gsferreiira/bebedouro-inteligente" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <Link to="/">Início</Link>
+          <a href="https://bebedouro-inteligente.vercel.app" target="_blank" rel="noreferrer">Site do projeto</a>
+          <a href="https://github.com/gsferreiira/bebedouro-inteligente" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
       </header>
 
@@ -202,9 +202,9 @@ function BebedouroCaseStudy() {
         </section>
 
         <section className="cs-section cs-section--end">
-          <Link to="/" className="btn btn--ghost">← Voltar pro início</Link>
+          <Link to="/" className="btn btn--ghost">Voltar pro início</Link>
           <a className="btn btn--primary" href="https://bebedouro-inteligente.vercel.app" target="_blank" rel="noreferrer">
-            Ver site do projeto ↗
+            Ver site do projeto
           </a>
         </section>
       </main>
